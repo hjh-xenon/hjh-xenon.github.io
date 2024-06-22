@@ -1,0 +1,59 @@
+/*头部*/
+.header1{
+    position: relative;
+    height: 55px;
+    background-color:pink;
+}
+/*头部*/
+/* 导航 */
+.nav1{
+    position: relative;
+    margin:0 auto;
+    width: 1180px;
+    height: 60px;
+    background-color: black;
+    line-height: 70px;
+}
+.nav1 li{
+    width: 200px;
+    float: left;
+}
+.nav1 a{
+    color: white;
+    margin-right:30px;
+    text-align:center;
+}
+/* 悬停 */
+.nav1 li:hover{
+    background-color: palevioletred;
+    height:60px;
+    width:200px;
+}
+/* 下拉列表 */
+.connection{
+    position: absolute;
+    width: 200px; 
+    height:450px;
+    background-color: white;
+    display: none;
+}
+.nav1 li:hover>.connection{
+    display: block;
+}
+/* 导航 */
+/* introduce */
+.grid{
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+/* introduce */
+/* table */
+table tr:first-child{
+    font-size:xx-large;
+    height: 80px;
+}
+table tr{
+    height: 50px ;
+    text-align: center;
+}
+/* table */
